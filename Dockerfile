@@ -1,4 +1,4 @@
 From openjdk:8
 EXPOSE 8080
-Add target/dockerspring-0.0.1-SNAPSHOT.war dockerspring-0.0.1-SNAPSHOT.war
+Add target/spring-jenkin-docker.war spring-jenkin-docker.war
 ENTRYPOINT [ "java","-jar","spring-jenkin-docker.war" ]
